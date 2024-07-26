@@ -1,0 +1,88 @@
+[
+    {
+      "category": "Photo Editing",
+      "services": [
+        {
+          "name": "Basic Photo Editing",
+          "description": "Colour correction, brightness/contrast adjustment, cropping, and minor touch-ups",
+          "price": "₹100 per photo"
+        },
+        {
+          "name": "Advanced Photo Editing",
+          "description": "Retouching, background removal, object removal, and enhancing details",
+          "price": "₹200 per photo"
+        },
+        {
+          "name": "Bulk Photo Editing",
+          "description": "Basic editing for a batch of photos (minimum 20 photos)",
+          "price": "₹1,500 for 20 photos"
+        }
+      ]
+    },
+    {
+      "category": "Logo Design and Editing",
+      "services": [
+        {
+          "name": "Basic Logo Design",
+          "description": "Simple logo design with 2-3 concepts and revisions",
+          "price": "₹3,000 per logo"
+        },
+        {
+          "name": "Advanced Logo Design",
+          "description": "Detailed logo design with 5 concepts, multiple revisions, and vector files",
+          "price": "₹6,000 per logo"
+        },
+        {
+          "name": "Editing Logo",
+          "description": "Modifying existing logos (colour change, adding text, resizing)",
+          "price": "₹1,000 per logo"
+        }
+      ]
+    },
+    {
+      "category": "Thumbnail Designing",
+      "services": [
+        {
+          "name": "Thumbnail Design",
+          "description": "Creating eye-catching thumbnails for YouTube or social media",
+          "price": "₹400 per thumbnail"
+        },
+        {
+          "name": "Bulk Thumbnail Design",
+          "description": "Designing thumbnails for a series of videos (minimum 10 thumbnails)",
+          "price": "₹3,000 for 10 thumbnails"
+        }
+      ]
+    },
+    {
+      "category": "Video Editing Services",
+      "services": [
+        {
+          "name": "Basic Video Editing",
+          "description": "Cutting, trimming, and basic transitions",
+          "price": "₹500 per minute"
+        },
+        {
+          "name": "Standard Video Editing",
+          "description": "Includes basic editing plus colour correction, audio enhancement, and simple effects",
+          "price": "₹1,000 per minute"
+        },
+        {
+          "name": "Advanced Video Editing",
+          "description": "Includes standard editing plus motion graphics, animations, and complex transitions",
+          "price": "₹1,500 per minute"
+        },
+        {
+          "name": "YouTube Video Editing",
+          "description": "Complete editing for YouTube videos, including intro/outro, text overlays, and sound effects",
+          "price": "₹1,500 per minute"
+        },
+        {
+          "name": "Short Social Media Videos",
+          "description": "Editing short videos (up to 1 minute) for Instagram, TikTok, YouTube Shorts, etc.",
+          "price": "₹1,000 per video"
+        }
+      ]
+    }
+  ]
+  
