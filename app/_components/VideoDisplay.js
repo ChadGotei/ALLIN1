@@ -1,49 +1,50 @@
-import React from 'react'
-import { Video } from './Video'
+import React from 'react';
+import { Video } from './Video';
 
 export default function VideoDisplay() {
     return (
-        <div className='flex flex-col gap-12 items-center pt-4'>
-
-            <div className='flex flex-col md:flex-row gap-12 px-4 md:px-0'>
-                <div className='flex-1'>
+        <div className="px-4 py-8">
+            {/* Container for Showreel and Thumbnail */}
+            <div className="flex flex-col md:flex-row gap-12 mb-12">
+        
+                <div className="flex-1">
                     <div className="text-2xl font-semibold text-primary-100 text-center mb-4">Showreel</div>
-                    <div className="flex justify-center mx-[-10px]"> {/* Adjusted margin */}
+                    <div>
                         <Video
                             video='983213733'
                             title='Showreel'
                         />
                     </div>
                 </div>
-
-                <div className='flex-1'>
-                    <div className="text-2xl font-semibold text-primary-100 text-center mb-4">Thumbnails</div>
-                    <div className="flex justify-center mx-[-10px]"> {/* Adjusted margin */}
+            
+                <div className="flex-1">
+                    <div className="text-2xl font-semibold text-primary-100 text-center mb-4">Thumbnail</div>
+                    <div>
                         <Video
                             video='983883259'
-                            title='Thumbnails'
+                            title='Thumbnail'
                         />
                     </div>
                 </div>
             </div>
 
-            <div className='w-full max-w-full px-4'>
+            <div className="flex flex-col items-center">
                 <div className="text-2xl font-semibold text-primary-100 text-center mb-4">Shorts</div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div className="flex justify-center">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-screen-lg">
+                    <div className="w-full">
                         <Video
                             video='983244019'
-                            title='Richest women in India'
+                            title='Shorts'
                         />
                     </div>
-                    <div className="flex justify-center">
+                    <div className="w-full">
                         <Video
                             video='983243873'
-                            title='Longest Sea link-ATAL Setu (MTHL)'
+                            title='Shorts'
                         />
                     </div>
                 </div>
             </div>
         </div>
-    )
+    );
 }

@@ -20,13 +20,13 @@ export default function VideosToDisplay() {
         );
     } else if (toDisplay.length === 0) {
         return (
-            <p className="text-center text-white text-xl pt-10">
+            <p className="text-center text-white text-xl pt-8">
                 No videos available for the selected filter.
             </p>
         );
     } else {
         return (
-            <div className={`grid grid-cols-1 sm:grid-cols-2 gap-8 px-4 py-4 ${filter === 'edits' ? 'gap-[7rem] pt-10' : 'gap-0 pt-12'}`}>
+            <div className={`grid grid-cols-1 sm:grid-cols-2 gap-8 px-4 py-4 ${filter === 'edits' ? 'gap-4 md:gap-7' : 'gap-0 pt-12'}`}>
                 {toDisplay.map((v) => (
                     <div key={v.id} className={`flex justify-center`}>
                         <Video

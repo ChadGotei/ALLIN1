@@ -1,10 +1,11 @@
+import React from 'react';
+
 export function Video({ video, title }) {
     return (
-        <div>
+        <div className="w-full">
             <iframe
                 src={`https://player.vimeo.com/video/${video}`}
-                width="640"
-                height="360"
+                className="w-full h-56 sm:h-64 md:h-80 lg:h-96 2xl:h-[360px]"
                 frameBorder="0"
                 allow="autoplay; fullscreen"
                 allowFullScreen
