@@ -17,7 +17,7 @@ export default function PricingButton() {
 
     return (
         <button
-            className='text-2xl px-6 py-3 rounded-lg border-4 border-transparent bg-gradient-to-r from-green-700 to-green-800 text-white font-semibold shadow-lg hover:from-green-800 hover:to-green-900    hover:shadow-xl transition-all duration-300 ease-in-out'
+            className='text-2xl px-6 py-3 rounded-lg border-4 border-transparent bg-gradient-to-r from-yellow-400 to-yellow-500 text-main font-semibold shadow-lg hover:from-main hover:to-black hover:text-yellow-500  hover:shadow-xl transition-all duration-300 ease-in-out'
             onClick={handleClick}
         >
             Pricing
