@@ -6,7 +6,7 @@ import MainPageContent from './_components/MainPageContent';
 
 export default function Page() {
   return (
-    <div className='flex flex-col pt-20'>
+    <div className='flex flex-col'>
       
       <Image
         src={bgImg}

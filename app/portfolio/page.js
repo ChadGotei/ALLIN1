@@ -9,8 +9,8 @@ export const metadata = {
 
 export default function Page() {
   return (
-    <section className="py-12">
-      <div className='text-main text-5xl text-center font-bold mb-12'>
+    <section className="">
+      <div className='text-main text-5xl text-center font-bold mb-8 sm:mb-10'>
         Our Portfolio
       </div>
 

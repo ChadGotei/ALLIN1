@@ -36,7 +36,7 @@ export default function InnovationContent() {
                         className="bg-primary-100 rounded-lg p-6 shadow-lg cursor-pointer"
                         whileHover={{ scale: 1.05 }}
                     >
-                        <motion.h2 className="text-xl font-bold text-gray-800 text-center mb-2">{item.title}</motion.h2>
+                        <motion.h2 className="text-xl font-bold text-gray-800">{item.title}</motion.h2>
                         <motion.h5 className="text-gray-600">{item.subtitle}</motion.h5>
                     </motion.div>
                 ))}

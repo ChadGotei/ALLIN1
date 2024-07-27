@@ -9,10 +9,10 @@ export default function PricingButton() {
     const handleClick = () => {
         setVisible(true);
 
-        // saveAs(
-        //     "https://drive.google.com/uc?export=download&id=1iAU87hbGH6OIOk7cbx2y7qGYe3fRnhlR",
-        //     "pricing.pdf"
-        // );
+        saveAs(
+            "https://drive.google.com/uc?export=download&id=15RiUYP1Pl65STZXCEPT-SvFXkGRUlKlo",
+            "pricing.pdf"
+        );
     }
 
     return (
