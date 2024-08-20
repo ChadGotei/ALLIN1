@@ -40,7 +40,7 @@ export default function Navigation() {
           href={instaLink}
           target="_blank"
           rel="noopener noreferrer"
-          className='bg-slate-700 text-white px-4 py-2 rounded-full hover:bg-gray-800 transition-colors'
+          className='contact-btn'
         >
           Contact
         </a>
