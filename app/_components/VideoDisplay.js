@@ -1,10 +1,12 @@
 import React from 'react';
 import { Video } from './Video';
 
+// To manually upload the all videos
+
 export default function VideoDisplay() {
     return (
         <div className="px-4 py-8">
-            {/* Container for Showreel and Thumbnail */}
+
             <div className="flex flex-col md:flex-row gap-12 mb-12">
         
                 <div className="flex-1">

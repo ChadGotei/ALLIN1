@@ -29,7 +29,7 @@ export default function MainPageContent() {
 
                 <div className='flex flex-col md:flex-row gap-6 mt-20 md:mt-8 justify-center'>
                     <PricingButton />
-                    <button className='text-2xl px-6 py-3 rounded-lg border-2 border-secondary-500 bg-secondary-500 text-white font-semibold shadow-md hover:bg-secondary-600 hover:border-secondary-600 transition-all duration-300 ease-in-out hover:bg-white hover:text-main'>
+                    <button className='text-2xl px-6 py-3 rounded-lg border-2 text-white font-semibold shadow-md transition-all duration-300 ease-in-out hover:bg-white hover:text-main'>
                         <a href='https://www.instagram.com/allin1mediain?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D' target='_blank'>Book</a>
                     </button>
                 </div>

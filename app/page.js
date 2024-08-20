@@ -1,25 +1,22 @@
-import Image from 'next/image'
-import React from 'react'
-import bgImg from '@/public/bg.png';
-import MainPageContent from './_components/MainPageContent';
+import MainPageContent from "./_components/MainPageContent";
 
-
-export default function Page() {
+export default function BackgroundVideo() {
   return (
-    <div className='flex flex-col'>
-      
-      <Image
-        src={bgImg}
-        alt='Dotted fish eyes'
-        fill
-        objectFit='cover'
-        className='glass-effect absolute inset-0 glass-effect opacity-15'
-      />
+    <div className="relative">
+      <video
+        autoPlay
+        loop
+        muted
+        className="fixed inset-0 w-full h-full object-cover z-[-1]"
+      >
+        <source src="/Showreel1.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
 
-     {
-      <MainPageContent />
-     }
 
+      <div className="relative z-10">
+        <MainPageContent />
+      </div>
     </div>
-  )
+  );
 }

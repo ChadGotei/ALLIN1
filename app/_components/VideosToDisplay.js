@@ -8,7 +8,6 @@ import VideoDisplay from './VideoDisplay';
 export default function VideosToDisplay() {
     const searchParams = useSearchParams();
     const filter = searchParams.get('type') ?? 'all';
-    console.log(filter);
 
     const toDisplay = filter === 'all' ? videos : videos.filter((video) => video.category === filter);
 

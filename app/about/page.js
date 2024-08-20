@@ -10,7 +10,6 @@ export const metadata = {
 export default function Page() {
 
     return (
-        /* Innovation part */
         <div className='flex flex-col items-center justify-center'>
             <div className='md:min-h-screen md:flex md:flex-col md:justify-center md:mt-[-10%]'>
                 <Heading
@@ -67,7 +66,6 @@ export default function Page() {
     );
 }
 
-/* Heading Component */
 
 function Heading({ heading, className = '' }) {
     return (
